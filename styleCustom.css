@@ -1,0 +1,214 @@
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  max-height: 20rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+#headerBackground {
+  background: url('source/imgh1.png'); 
+  background-size:100%;
+}
+#intro {
+  padding-top: 80px;  
+  padding-bottom: 30px; 
+  background: url(source/imga.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#mySkills {
+  height: auto; 
+  padding-top: 80px; 
+  padding-bottom: 30px; 
+  background-color: #082e48;
+}
+#myWork {
+  padding: 0px; 
+  margin: 0px;
+}
+#myWorkSubA {
+  padding-top: 100px; 
+  padding-bottom: 70px;
+}
+#myWorkSubB {
+  padding: 0px; 
+  margin: 0px;
+}
+#myWorkStyle {
+  background-color: white; 
+  height:auto; 
+  padding-top: 100px; 
+  padding-bottom: 0px;
+}
+#myWorkStyleSub {
+  background: url(source/imgbg.jpg); 
+  padding-bottom: 40px; 
+  padding-top: 30px;
+}
+#projectWork {
+  height: auto; 
+  padding-top: 100px; 
+  padding-bottom: 70px; 
+  background-color: white;
+}
+#projectWorkSub {
+  width: 18rem; 
+  border: 0px; 
+  display: inline-block;
+}
+#myFooter {
+  height: auto; 
+  background-color: #0f466b; 
+  padding: 50px;
+}
+/*@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}*/
+
+/* The heart of the matter */
+.testimonial-group > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.testimonial-group > .row > .col-sm-4 {
+  display: inline-block;
+  float: none;
+}
+
+
+ .scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.scrolling-wrapper-flexbox {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.card {
+    flex: 0 0 auto;
+    margin: 20px;
+    padding: 10px;
+    min-width: 230px;
+    max-width: 230px;
+    background-color: #ffffff00;
+    border: 0px;
+   
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: #f5f6f7;
+    border-top-right-radius: calc(4.25rem - 1px);
+    border-top-left-radius: calc(2.25rem - 1px);
+    border-bottom-left-radius: calc(4.25rem - 1px);
+}
+  .skills {
+    width: auto; 
+    height: auto; 
+    display: inline; 
+    background-color: grey;
+    flex: 0 0 auto;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    background-color: #4a535800;
+  }
+
+  body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #2f2f2f;
+  }
+
+  .fontHead1 {
+    font-family: 'Caveat', cursive;
+    color: white;
+  }
+
+  .fontHead2 {
+    font-family: 'Caveat', cursive;
+    color: #2f2f2f;
+  }
+
+  .fontHead3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    background-color: #00000052;
+  }
+  .fontHead6 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    
+  }
+
+  .fontHead4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #2f2f2f;
+  }
+  .fontHead5 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #90944d;
+  }
+ .card-img-bottom {
+    width: 100%;
+    border-bottom-right-radius: calc(4.25rem - 1px);
+    border-bottom-left-radius: calc(2.25rem - 1px);
+    border-top-left-radius: calc(4.25rem - 1px);
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.top {
+    position: absolute;
+    top: 195px;
+    left: 60px;
+}
+
+
